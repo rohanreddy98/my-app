@@ -1,4 +1,5 @@
 import React from "react";
+import ProductListing from './ProductListing'
 
 const Header = () => {
   return (
@@ -8,6 +9,7 @@ const Header = () => {
           <h2>fakeshop</h2>
         </div>
       </div>
+      <ProductListing/>
     </>
   );
 };
